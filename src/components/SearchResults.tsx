@@ -1,4 +1,3 @@
-import { useMemo } from 'react'
 import { List, ListRowRenderer } from 'react-virtualized'
 import { ProductItem } from './ProductItem'
 
