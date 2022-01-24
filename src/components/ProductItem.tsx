@@ -49,4 +49,4 @@ export const ProductItem = memo(
   (prevProps, nextProps) => {
     return lodash.isEqual(prevProps.product, nextProps.product)
   }
-)
+) // Previne componente filho renderizar novamente caso ele n tenha alterações
