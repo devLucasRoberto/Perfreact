@@ -13,7 +13,7 @@ const AddProductToWishList = dynamic<AddProductToWishListProps>(
   {
     loading: () => <span>Carregando...</span>
   }
-)
+) // carregar a biblioteca sobre demanda
 
 interface ProductItemProps {
   product: {
